@@ -1,0 +1,14 @@
+# Writing all output to: B:\AUUB 22024010 6th\AVE_4601\Project\Simulations\SSB_Transmitter.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 4
+route 50 16
+clean 4
+route 50 16
+clean 4
+filter 5
+recorner diagonal
+status_file
+
